@@ -3,6 +3,13 @@
 This package contains the GEQR query-time implementation, the five graph inputs,
 shared-vector indexes, frozen selected query splits.
 
+Due to GitHub's file size limitations, the complete code and data package is
+available on Baidu Netdisk:
+
+- File: `GEQR-code.zip`
+- Download: [Baidu Netdisk](https://pan.baidu.com/s/1D8cpSeqWbzJNYTVap6Zpaw?pwd=yrqn)
+- Extraction code: `yrqn`
+- 
 ## Requirements
 
 - Python 3.8 (the exact paper runner uses the Python 3.8 AST interface).
