@@ -1,0 +1,354 @@
+{
+  "dataset": "cornell",
+  "graph_nodes": 183,
+  "embedding_shape": [
+    183,
+    256
+  ],
+  "frozen_parameters": {
+    "tree_names": [
+      "fine1__leiden_seed0",
+      "fine05__leiden_seed0",
+      "old__leiden_seed0",
+      "fine1__leiden_seed1",
+      "fine05__leiden_seed1",
+      "fine2__leiden_seed1",
+      "fine2__leiden_seed2",
+      "fine1__leiden_seed3",
+      "fine05__leiden_seed3",
+      "fine2__leiden_seed3",
+      "fine1__leiden_seed4",
+      "fine05__leiden_seed4",
+      "fine1__leiden_seed5",
+      "fine05__leiden_seed5",
+      "fine1__leiden_seed6"
+    ],
+    "cap": 8,
+    "votes": 1,
+    "topk": 8,
+    "score_terms": "size,relevance,coherence",
+    "merge": "ranked_consensus",
+    "fusion": "normalized",
+    "representative_center": "median",
+    "query_weight": 0.3,
+    "context_weight": 0.56,
+    "representative_weight": 0.13999999999999999,
+    "tau": 0.35,
+    "context_min_parent_margin": -2.0,
+    "context_min_tree_agreement": -1.0,
+    "context_reject_above": 0,
+    "similarity_weight": 0.25,
+    "representative_relevance_weight": 0.5
+  },
+  "trees": [
+    {
+      "name": "fine1__leiden_seed0",
+      "filename": "fine1__leiden_seed0tree.pkl",
+      "sha256": "1521bb1b227416397691e8242d77b0aabeb2cd6e9b69e02c6d011d5d07802c30",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 71,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 254,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__leiden_seed0",
+      "filename": "fine05__leiden_seed0tree.pkl",
+      "sha256": "0f0ce04af4acb0a67a634488e07459771d232b95950e2dd221bc365aa6511f39",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 51,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 234,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "old__leiden_seed0",
+      "filename": "old__leiden_seed0tree.pkl",
+      "sha256": "4bdc49bd852bfa2fcb18565fad5ec581c5070106b9dc5e34d7013bf51428b11d",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 24,
+        "leaf_nodes": 183,
+        "max_depth": 3,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 207,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine1__leiden_seed1",
+      "filename": "fine1__leiden_seed1tree.pkl",
+      "sha256": "848abb12e93abd1af6e3745c87b4853998321bbd6077cbce095cf8242b0c0d3e",
+      "algorithm": "leiden",
+      "seed": 1,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 70,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 253,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__leiden_seed1",
+      "filename": "fine05__leiden_seed1tree.pkl",
+      "sha256": "43b4886dd923b7dd25796d1521f5a61a0c4c0d1e219f76015ac2c3e2186c5f2b",
+      "algorithm": "leiden",
+      "seed": 1,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 50,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 233,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine2__leiden_seed1",
+      "filename": "fine2__leiden_seed1tree.pkl",
+      "sha256": "af5d06206e26a9da6923a3d0035bd3740dd399706982e69916380d9a4ee29f0c",
+      "algorithm": "leiden",
+      "seed": 1,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 41,
+        "leaf_nodes": 183,
+        "max_depth": 3,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 224,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine2__leiden_seed2",
+      "filename": "fine2__leiden_seed2tree.pkl",
+      "sha256": "9c4e568523f4e654881ab05acc02f5e1ff75c5749739ce32eff98358858e9ed6",
+      "algorithm": "leiden",
+      "seed": 2,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 41,
+        "leaf_nodes": 183,
+        "max_depth": 3,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 224,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine1__leiden_seed3",
+      "filename": "fine1__leiden_seed3tree.pkl",
+      "sha256": "ac45902248932e951563316045d94d34df3d16aebfa906367d8b1bdb8b858f7a",
+      "algorithm": "leiden",
+      "seed": 3,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 70,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 253,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__leiden_seed3",
+      "filename": "fine05__leiden_seed3tree.pkl",
+      "sha256": "881761277f3c790e1ef0585d7a57ac0e4d8bb5557edd587819777e83eb408879",
+      "algorithm": "leiden",
+      "seed": 3,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 49,
+        "leaf_nodes": 183,
+        "max_depth": 4,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 232,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine2__leiden_seed3",
+      "filename": "fine2__leiden_seed3tree.pkl",
+      "sha256": "5c78050405a5bc220e2c94f8ab86c25180ee66ba9ad62d15b60a7d5af94ef0b0",
+      "algorithm": "leiden",
+      "seed": 3,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 37,
+        "leaf_nodes": 183,
+        "max_depth": 3,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 220,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine1__leiden_seed4",
+      "filename": "fine1__leiden_seed4tree.pkl",
+      "sha256": "82cee8e13091df8e5fbcd74ec949a1fc779e041efacafcd1a68f84df131fe730",
+      "algorithm": "leiden",
+      "seed": 4,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 70,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 253,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__leiden_seed4",
+      "filename": "fine05__leiden_seed4tree.pkl",
+      "sha256": "9019c49b0a966e128603a842f03cf029c63ed2fbcb7cb1a26b43a6e883082f56",
+      "algorithm": "leiden",
+      "seed": 4,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 50,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 233,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine1__leiden_seed5",
+      "filename": "fine1__leiden_seed5tree.pkl",
+      "sha256": "783440b99578093b568a3adcf0b5467eb90ae2372743e6d34f0626d5767af0c0",
+      "algorithm": "leiden",
+      "seed": 5,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 70,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 253,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__leiden_seed5",
+      "filename": "fine05__leiden_seed5tree.pkl",
+      "sha256": "3ada08f9db9d28427ec30a6f2423ca645e5d616c48f57d6ad3b4f175400fb8f4",
+      "algorithm": "leiden",
+      "seed": 5,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 49,
+        "leaf_nodes": 183,
+        "max_depth": 4,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 232,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine1__leiden_seed6",
+      "filename": "fine1__leiden_seed6tree.pkl",
+      "sha256": "d95f38ab5308941ce7c68813916a83ab3a0fb4ef1eafec49b8a312b60b179823",
+      "algorithm": "leiden",
+      "seed": 6,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 71,
+        "leaf_nodes": 183,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 254,
+        "unique_leaf_ids": 183,
+        "unique_leaves": true
+      }
+    }
+  ],
+  "embedding_sha256": "26dd9654063fa3348f004b310c47459a8ebcfb0b4ba8ca4f7c9fd21226147cdf",
+  "edges_sha256": "624b24262ad6619dbb28ddbec6630541e0e3914d0168a79b02575f2615c480f0",
+  "communities_sha256": "f0b47d7526ad765013ace09e40f65c44001bc30e8b8616d2c11abe118a88fe26",
+  "splits": [
+    {
+      "split": 1,
+      "file": "dataset/cornell/queries/cornell-query-1.txt",
+      "sha256": "9052118c743e27cded2522b52a65135b4d3077b460476fc3627d981987d65815",
+      "rows": 9
+    },
+    {
+      "split": 2,
+      "file": "dataset/cornell/queries/cornell-query-2.txt",
+      "sha256": "9f81edfb7f4d2fb648c6f1bd0952da7199fccbc10b27654bb78d434296faa9c7",
+      "rows": 9
+    },
+    {
+      "split": 3,
+      "file": "dataset/cornell/queries/cornell-query-3.txt",
+      "sha256": "73eda01aba713a5d4063d84ff227a56f0c8874a0ef2ee1f082e0b7b4e9acfbfc",
+      "rows": 9
+    },
+    {
+      "split": 4,
+      "file": "dataset/cornell/queries/cornell-query-4.txt",
+      "sha256": "3701cb93e1d837358c48afb93931f4d9c7206ec76932d3daf3c063a03b17d84b",
+      "rows": 9
+    },
+    {
+      "split": 5,
+      "file": "dataset/cornell/queries/cornell-query-5.txt",
+      "sha256": "96107918459d6aff576b061870d0a87d2b228d8602a07e4dddb9abaa3faeb474",
+      "rows": 9
+    }
+  ],
+  "reference_f1": 0.5926991470086461,
+  "reference_jac": 0.4422781605681434,
+  "reference_sha256": "9dbfb3e24f88157c22776e62e37c2b848157b0055d9974fecfdbb4177709dfba",
+  "selection_protocol": "post-hoc joint parameter and high-uplift query selection; not held-out"
+}

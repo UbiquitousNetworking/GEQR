@@ -1,0 +1,264 @@
+{
+  "dataset": "dblp",
+  "graph_nodes": 17716,
+  "embedding_shape": [
+    17716,
+    1024
+  ],
+  "frozen_parameters": {
+    "merge": "ranked_consensus",
+    "cap": 96,
+    "votes": 2,
+    "fusion": "normalized",
+    "query_weight": 0.0,
+    "context_weight": 0.75,
+    "representative_weight": 0.25,
+    "topk": 5,
+    "representative_center": "median",
+    "context_reject_above": 256,
+    "context_min_parent_margin": 0.06,
+    "context_min_tree_agreement": -1.0,
+    "name": "full",
+    "display": "GEQR",
+    "tree_names": [
+      "leiden_seed0",
+      "leiden_seed1",
+      "leiden_seed2",
+      "leiden_seed3",
+      "leiden_seed4",
+      "leiden_seed5",
+      "leiden_seed6",
+      "leiden_seed7",
+      "leiden_seed8",
+      "leiden_seed9"
+    ],
+    "semrewrite": 1,
+    "structrewrite": 1,
+    "provider": "csqr",
+    "tau": 0.1,
+    "similarity_weight": 0.25,
+    "score_terms": "size,relevance,coherence",
+    "representative_relevance_weight": 0.075
+  },
+  "trees": [
+    {
+      "name": "leiden_seed0",
+      "filename": "leiden_seed0tree.pkl",
+      "sha256": "a17569b3c7e042981207a0660cc5db596fea93480b436edb81eafd2166719be5",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2984,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20700,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed1",
+      "filename": "leiden_seed1tree.pkl",
+      "sha256": "72293288ebb687fa909de4a369bc701996531d24a4470d6db7ec0ae0ad695978",
+      "algorithm": "leiden",
+      "seed": 1,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2957,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20673,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed2",
+      "filename": "leiden_seed2tree.pkl",
+      "sha256": "1c86ca959499fc73e0caa6dd1d37c9e6bb6f762e94e77a7bfcdd1380c6b566c6",
+      "algorithm": "leiden",
+      "seed": 2,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2970,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20686,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed3",
+      "filename": "leiden_seed3tree.pkl",
+      "sha256": "5ab3a53ae82cba3c7928df2b1ad2082b0b4b9670a36b943a42c3870598f5aa60",
+      "algorithm": "leiden",
+      "seed": 3,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2980,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20696,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed4",
+      "filename": "leiden_seed4tree.pkl",
+      "sha256": "11fd237efeed24f75648f1085a501c283e88828f48fd6e3f971edf71319cd780",
+      "algorithm": "leiden",
+      "seed": 4,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2939,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20655,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed5",
+      "filename": "leiden_seed5tree.pkl",
+      "sha256": "d0a821234a2c8949d5385eeefadbf4976c1e88d2ab88b71067ad25032ef0627e",
+      "algorithm": "leiden",
+      "seed": 5,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 3070,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20786,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed6",
+      "filename": "leiden_seed6tree.pkl",
+      "sha256": "add1ddaeb1a0bba4590897856b3e907b4cac4748c604a4b98684a215c754a300",
+      "algorithm": "leiden",
+      "seed": 6,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2985,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20701,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed7",
+      "filename": "leiden_seed7tree.pkl",
+      "sha256": "feeeab1c3aa81a17d1cbc749dd5870131883801a75b0b87c446bd92ad7b398f1",
+      "algorithm": "leiden",
+      "seed": 7,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2957,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20673,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed8",
+      "filename": "leiden_seed8tree.pkl",
+      "sha256": "12b90217e3b9866bc5a45812aef61e6afd45ec97c8613e9adb77f2296f6b182e",
+      "algorithm": "leiden",
+      "seed": 8,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2993,
+        "leaf_nodes": 17716,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20709,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "leiden_seed9",
+      "filename": "leiden_seed9tree.pkl",
+      "sha256": "0b0b9749e933a031f36f7369007c47e9020002c5ee29bfeec26eb7ebde6e9c2d",
+      "algorithm": "leiden",
+      "seed": 9,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 2995,
+        "leaf_nodes": 17716,
+        "max_depth": 6,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 20711,
+        "unique_leaf_ids": 17716,
+        "unique_leaves": true
+      }
+    }
+  ],
+  "embedding_sha256": "b68b7df8f1c4151067801007c3f7c2183b66e51c25e1a3f1d85a21dfded3063e",
+  "edges_sha256": "c795960e7668c5eb20043f5c7fb353e424cac361e0eb21564a0749fb027e3b19",
+  "communities_sha256": "cd8466ec62f4e3687c5c22bdf78ff2454407217bfb187f9e490d2904ba5e992b",
+  "splits": [
+    {
+      "split": 1,
+      "file": "dataset/dblp/queries/dblp-query-1.txt",
+      "sha256": "845af6258f66cd4425580f014a7aa335f6600eee588f2574a1e670c8725fe9b5",
+      "rows": 100
+    },
+    {
+      "split": 2,
+      "file": "dataset/dblp/queries/dblp-query-2.txt",
+      "sha256": "a42855b0630eb4c5dde748c6ca9cb255fc80a73ced1f033bb7252f781e593e59",
+      "rows": 100
+    },
+    {
+      "split": 3,
+      "file": "dataset/dblp/queries/dblp-query-3.txt",
+      "sha256": "b416a578d98e554d4f7f5c815e088104687445687c30c05a8ba8d874e16b531b",
+      "rows": 100
+    },
+    {
+      "split": 4,
+      "file": "dataset/dblp/queries/dblp-query-4.txt",
+      "sha256": "c50ea5afa0c2d3eaa9fdaebe6744cd02eecd4b859eb48a4a0c2fd070ac0e1c0a",
+      "rows": 100
+    },
+    {
+      "split": 5,
+      "file": "dataset/dblp/queries/dblp-query-5.txt",
+      "sha256": "207db2a51708f1bc724f00f84faf61d05c0bccd552f252add762bbcbc073b476",
+      "rows": 100
+    }
+  ],
+  "reference_f1": 0.6400276574201307,
+  "reference_jac": 0.4871144679537472,
+  "reference_sha256": "7b26b88dfa8e50f271d2fd13ab2d48180817620a9e8b5dc086d6b8dc33e36ad6",
+  "selection_protocol": "post-hoc oracle set; not an unbiased generalization test"
+}

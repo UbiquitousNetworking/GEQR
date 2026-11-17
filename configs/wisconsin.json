@@ -1,0 +1,164 @@
+{
+  "dataset": "wisconsin",
+  "graph_nodes": 251,
+  "embedding_shape": [
+    251,
+    256
+  ],
+  "frozen_parameters": {
+    "tree_names": [
+      "fine1__leiden_seed0",
+      "fine05__leiden_seed0",
+      "fine2__leiden_seed0",
+      "fine1__louvain_seed0",
+      "fine05__louvain_seed0"
+    ],
+    "cap": 32,
+    "votes": 1,
+    "topk": 1,
+    "score_terms": "size,relevance,coherence",
+    "merge": "ranked_consensus",
+    "fusion": "normalized",
+    "representative_center": "median",
+    "query_weight": 0.125,
+    "context_weight": 0.678125,
+    "representative_weight": 0.19687499999999997,
+    "tau": 0.0,
+    "context_min_parent_margin": -2.0,
+    "context_min_tree_agreement": -1.0,
+    "context_reject_above": 0,
+    "similarity_weight": 0.25,
+    "representative_relevance_weight": 0.25
+  },
+  "trees": [
+    {
+      "name": "fine1__leiden_seed0",
+      "filename": "fine1__leiden_seed0tree.pkl",
+      "sha256": "6a436f068ccf95af775a7408f9dd0ce8c5e48ef81431e320a0be1043d25f41e8",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 109,
+        "leaf_nodes": 251,
+        "max_depth": 4,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 360,
+        "unique_leaf_ids": 251,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__leiden_seed0",
+      "filename": "fine05__leiden_seed0tree.pkl",
+      "sha256": "d1c3b04201d10ae4a4a9444ff8d6f1f9980b9d654dcdc32ac844a31fabf9eb20",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 79,
+        "leaf_nodes": 251,
+        "max_depth": 6,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 330,
+        "unique_leaf_ids": 251,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine2__leiden_seed0",
+      "filename": "fine2__leiden_seed0tree.pkl",
+      "sha256": "9c4c306e0e4781c6882f68c5185c87634de55dc83ed620a65184124ee6096015",
+      "algorithm": "leiden",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 76,
+        "leaf_nodes": 251,
+        "max_depth": 3,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 327,
+        "unique_leaf_ids": 251,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine1__louvain_seed0",
+      "filename": "fine1__louvain_seed0tree.pkl",
+      "sha256": "fc4c2dd122670a9ef1747864bbcb30f18fc1f1450ec50c12ddb10a353f9ca82d",
+      "algorithm": "louvain",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 108,
+        "leaf_nodes": 251,
+        "max_depth": 5,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 359,
+        "unique_leaf_ids": 251,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "fine05__louvain_seed0",
+      "filename": "fine05__louvain_seed0tree.pkl",
+      "sha256": "99418cd5a1a417c9985f6e677a292e2d3d054206e94e2985e34c7f6c2651a9d2",
+      "algorithm": "louvain",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 79,
+        "leaf_nodes": 251,
+        "max_depth": 6,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 330,
+        "unique_leaf_ids": 251,
+        "unique_leaves": true
+      }
+    }
+  ],
+  "embedding_sha256": "c98d75a9fb6f61c178fce129515bbe35a717bf9a9ee53c6f0df2cb1a393fc220",
+  "edges_sha256": "69a0d8283d6b133302553d6b392d13f5c09ad988b3eb1bc14eab4f4e20ff50ee",
+  "communities_sha256": "ad2c75802aa8570b8f42b8a6a6781fe5244065a98f28e436a2476ec11c64d575",
+  "splits": [
+    {
+      "split": 1,
+      "file": "dataset/wisconsin/queries/wisconsin-query-1.txt",
+      "sha256": "884c190ceea3ff8335eeece4602346a24a4edf78dacb513549dde9cc0458676b",
+      "rows": 12
+    },
+    {
+      "split": 2,
+      "file": "dataset/wisconsin/queries/wisconsin-query-2.txt",
+      "sha256": "8a5ef3dd3416bbff192e68afcafc23aed4378727c81af342275006ab2d1b09e3",
+      "rows": 12
+    },
+    {
+      "split": 3,
+      "file": "dataset/wisconsin/queries/wisconsin-query-3.txt",
+      "sha256": "56ab30bfd286385a4d41859cc46046fdadf98a31088cb5f791ec116fe5b558cf",
+      "rows": 12
+    },
+    {
+      "split": 4,
+      "file": "dataset/wisconsin/queries/wisconsin-query-4.txt",
+      "sha256": "1d4faaee7c5874c67fc1e786bbb96e46b8c67730fe69aeec8802b8c6eaa6e921",
+      "rows": 12
+    },
+    {
+      "split": 5,
+      "file": "dataset/wisconsin/queries/wisconsin-query-5.txt",
+      "sha256": "815621040af70e31af35d6d1188696a0c22df78fbba8341c28312c33afda6491",
+      "rows": 12
+    }
+  ],
+  "reference_f1": 0.4712631168317079,
+  "reference_jac": 0.3214869493932472,
+  "reference_sha256": "f086241746bc447063692c2efaef2cb964f5e5c3c513ac01e25d1753fee4f08d",
+  "selection_protocol": "post-hoc joint parameter and high-uplift query selection; not held-out"
+}

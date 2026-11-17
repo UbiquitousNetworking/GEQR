@@ -1,0 +1,260 @@
+{
+  "dataset": "citeseer",
+  "graph_nodes": 3327,
+  "embedding_shape": [
+    3327,
+    1024
+  ],
+  "frozen_parameters": {
+    "name": "fusion_cap96_votes1_q5_top5",
+    "tree_names": [
+      "embedding_cluster_seed0",
+      "embedding_cluster_seed1",
+      "embedding_cluster_seed2",
+      "embedding_cluster_seed3",
+      "embedding_cluster_seed4",
+      "embedding_cluster_seed5",
+      "embedding_cluster_seed6",
+      "embedding_cluster_seed7",
+      "embedding_cluster_seed8",
+      "embedding_cluster_seed9"
+    ],
+    "merge": "ranked_consensus",
+    "cap": 96,
+    "votes": 1,
+    "fusion": "normalized",
+    "query_weight": 0.0,
+    "context_weight": 0.65,
+    "representative_weight": 0.35,
+    "topk": 20,
+    "representative_center": "median",
+    "context_min_parent_margin": 0.09,
+    "context_min_tree_agreement": -1.0,
+    "context_reject_above": 0,
+    "tau": 0.1,
+    "similarity_weight": 0.25,
+    "score_terms": "size,relevance,coherence",
+    "representative_relevance_weight": 0.15
+  },
+  "trees": [
+    {
+      "name": "embedding_cluster_seed0",
+      "filename": "embedding_cluster_seed0tree.pkl",
+      "sha256": "8f5cdfa74f4c2a144ac3dad5b29eb94856ca21071080c96b57f9b0b51c690c39",
+      "algorithm": "embedding_cluster",
+      "seed": 0,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 605,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3932,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed1",
+      "filename": "embedding_cluster_seed1tree.pkl",
+      "sha256": "38e9a2ffb25295673a78f970d75d7f4aa2073e740151c17767184d5cad720b34",
+      "algorithm": "embedding_cluster",
+      "seed": 1,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 624,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3951,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed2",
+      "filename": "embedding_cluster_seed2tree.pkl",
+      "sha256": "ef02054874830a151e31e76330844c60e86779288e8b820b33f8687a0453a1f3",
+      "algorithm": "embedding_cluster",
+      "seed": 2,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 657,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3984,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed3",
+      "filename": "embedding_cluster_seed3tree.pkl",
+      "sha256": "30275e6a11d95eb2a2dbafd1730084a276f47af026126d0f1d7ca2e3c15a40d0",
+      "algorithm": "embedding_cluster",
+      "seed": 3,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 622,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3949,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed4",
+      "filename": "embedding_cluster_seed4tree.pkl",
+      "sha256": "3a9b472921ab4f25a8ec80e497c325fb6d02ca1d82a664de245d699bc5b2c864",
+      "algorithm": "embedding_cluster",
+      "seed": 4,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 662,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3989,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed5",
+      "filename": "embedding_cluster_seed5tree.pkl",
+      "sha256": "471d9cd1a997684db073d5b0aed08247d7f295bd27ecdbb06970c87a20cb978a",
+      "algorithm": "embedding_cluster",
+      "seed": 5,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 618,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3945,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed6",
+      "filename": "embedding_cluster_seed6tree.pkl",
+      "sha256": "a80fd487e80629f1e4f45dc9f4ece09674b8956c8ac2289583431ef18b1270ae",
+      "algorithm": "embedding_cluster",
+      "seed": 6,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 628,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3955,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed7",
+      "filename": "embedding_cluster_seed7tree.pkl",
+      "sha256": "93459f84a3896a026911393a8c72439b2ca6d53c437440371113f40f49374df6",
+      "algorithm": "embedding_cluster",
+      "seed": 7,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 623,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3950,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed8",
+      "filename": "embedding_cluster_seed8tree.pkl",
+      "sha256": "f8e5a20273a28789b534f6dc2d76b6f9aac7d2ff33769739607542cc05465490",
+      "algorithm": "embedding_cluster",
+      "seed": 8,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 601,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3928,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    },
+    {
+      "name": "embedding_cluster_seed9",
+      "filename": "embedding_cluster_seed9tree.pkl",
+      "sha256": "43c60d5673382057788351fdd18e74dd758d39b91f06457b8b4d6fde2fbcfbd9",
+      "algorithm": "embedding_cluster",
+      "seed": 9,
+      "validation": {
+        "coverage_complete": true,
+        "internal_nodes": 622,
+        "leaf_nodes": 3327,
+        "max_depth": 7,
+        "partition_valid": true,
+        "schema_version": "csqr-partition-tree-v2",
+        "tree_nodes": 3949,
+        "unique_leaf_ids": 3327,
+        "unique_leaves": true
+      }
+    }
+  ],
+  "embedding_sha256": "f43b8fd49884249dc1c4ce45dc20834f656f90b4f3a28fab24d4ff2dbab7549e",
+  "edges_sha256": "30b69fcac95921faf98b8f568c0ed4a2bb4330f29c778db21aa43d4e44cb0b97",
+  "communities_sha256": "a23c76f967ddcb56634c3bb823b6348c1cecf946e7b804750b4c0d321e043632",
+  "splits": [
+    {
+      "split": 1,
+      "file": "dataset/citeseer/queries/citeseer-query-1.txt",
+      "sha256": "b0db2415dfa15014dc4fb0e9ecf0b178a7a2797192d4600e6bbf13f4751a1a3c",
+      "rows": 100
+    },
+    {
+      "split": 2,
+      "file": "dataset/citeseer/queries/citeseer-query-2.txt",
+      "sha256": "faf0851aa0047b03726c0dbcaac459033bc80e3cba471f260bef74e549750ab4",
+      "rows": 100
+    },
+    {
+      "split": 3,
+      "file": "dataset/citeseer/queries/citeseer-query-3.txt",
+      "sha256": "2f138764daa7897d9012db87cafa16667e2452a20cbde79d9a9411eec143296f",
+      "rows": 100
+    },
+    {
+      "split": 4,
+      "file": "dataset/citeseer/queries/citeseer-query-4.txt",
+      "sha256": "f11d7b3bdd5efa03576a6d36248acd9af83c38e605c243b07eb50365c831c6ae",
+      "rows": 100
+    },
+    {
+      "split": 5,
+      "file": "dataset/citeseer/queries/citeseer-query-5.txt",
+      "sha256": "e7034c0137018f4b0183db5840644e55773c3929d8cedcf5f11c9d0795f2f5aa",
+      "rows": 100
+    }
+  ],
+  "reference_f1": 0.5803943448637963,
+  "reference_jac": 0.4186425499261171,
+  "reference_sha256": "6b7338ff5c45cc9082947eea9971ce4bd2b8d301c270520b042676b6971fa0cc",
+  "selection_protocol": "post-hoc oracle set; not an unbiased generalization test"
+}
