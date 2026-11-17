@@ -1,0 +1,642 @@
+{
+  ".gitignore": {
+    "sha256": "894dda39f297505d2724168aa4f753c4979a5cd08977e9cdd97ae5f151aba510",
+    "bytes": 61
+  },
+  "build_index_trees.py": {
+    "sha256": "386a8fdc8efd132c0c59945e6137361358554f52b97a3be01fc6e00ecaee318b",
+    "bytes": 20710
+  },
+  "configs/citeseer.json": {
+    "sha256": "ebd441543a139655a4a53718ee2e8ceaa3d7cb3e3919622e5fffa2c6d7aa4e46",
+    "bytes": 8522
+  },
+  "configs/cornell.json": {
+    "sha256": "738b37b94162a45471dd3ff3365c75e719e4776c0bc5eb25555fa1786873e4ce",
+    "bytes": 11205
+  },
+  "configs/dblp.json": {
+    "sha256": "dea34566dc431c53e69cb91f8a0bda781cb067aeb34ebb17cf53e882a6b47c1f",
+    "bytes": 8155
+  },
+  "configs/texas.json": {
+    "sha256": "a9990f3bec9eca709d779b97858562e4ad2d4937dc798d311314d83a308dbeca",
+    "bytes": 20235
+  },
+  "configs/wisconsin.json": {
+    "sha256": "adf7ddd3b4392e3f09cc92a31451c55bba37c1bacd16c56da96f4fe026c0ca6f",
+    "bytes": 5276
+  },
+  "DATA_PROVENANCE.md": {
+    "sha256": "b3269081064e1b1d47ccb1cc239070fe847eb8b4993dbb686ec14eb7a1c732a1",
+    "bytes": 1082
+  },
+  "dataset/citeseer/citeseer.edges": {
+    "sha256": "30b69fcac95921faf98b8f568c0ed4a2bb4330f29c778db21aa43d4e44cb0b97",
+    "bytes": 84826
+  },
+  "dataset/citeseer/queries/citeseer-query-1.txt": {
+    "sha256": "b0db2415dfa15014dc4fb0e9ecf0b178a7a2797192d4600e6bbf13f4751a1a3c",
+    "bytes": 569
+  },
+  "dataset/citeseer/queries/citeseer-query-2.txt": {
+    "sha256": "faf0851aa0047b03726c0dbcaac459033bc80e3cba471f260bef74e549750ab4",
+    "bytes": 559
+  },
+  "dataset/citeseer/queries/citeseer-query-3.txt": {
+    "sha256": "2f138764daa7897d9012db87cafa16667e2452a20cbde79d9a9411eec143296f",
+    "bytes": 555
+  },
+  "dataset/citeseer/queries/citeseer-query-4.txt": {
+    "sha256": "f11d7b3bdd5efa03576a6d36248acd9af83c38e605c243b07eb50365c831c6ae",
+    "bytes": 567
+  },
+  "dataset/citeseer/queries/citeseer-query-5.txt": {
+    "sha256": "e7034c0137018f4b0183db5840644e55773c3929d8cedcf5f11c9d0795f2f5aa",
+    "bytes": 576
+  },
+  "dataset/citeseer/queries/selection_manifest.json": {
+    "sha256": "20fb6d19bee7e3ab7b5b756b0884e211ef72843700fdbb933bb7ec585fd07bd7",
+    "bytes": 1901
+  },
+  "dataset/citeseer/true_communities.txt": {
+    "sha256": "a23c76f967ddcb56634c3bb823b6348c1cecf946e7b804750b4c0d321e043632",
+    "bytes": 15529
+  },
+  "dataset/cornell/cornell.edges": {
+    "sha256": "624b24262ad6619dbb28ddbec6630541e0e3914d0168a79b02575f2615c480f0",
+    "bytes": 2246
+  },
+  "dataset/cornell/queries/cornell-query-1.txt": {
+    "sha256": "9052118c743e27cded2522b52a65135b4d3077b460476fc3627d981987d65815",
+    "bytes": 39
+  },
+  "dataset/cornell/queries/cornell-query-2.txt": {
+    "sha256": "9f81edfb7f4d2fb648c6f1bd0952da7199fccbc10b27654bb78d434296faa9c7",
+    "bytes": 38
+  },
+  "dataset/cornell/queries/cornell-query-3.txt": {
+    "sha256": "73eda01aba713a5d4063d84ff227a56f0c8874a0ef2ee1f082e0b7b4e9acfbfc",
+    "bytes": 39
+  },
+  "dataset/cornell/queries/cornell-query-4.txt": {
+    "sha256": "3701cb93e1d837358c48afb93931f4d9c7206ec76932d3daf3c063a03b17d84b",
+    "bytes": 41
+  },
+  "dataset/cornell/queries/cornell-query-5.txt": {
+    "sha256": "96107918459d6aff576b061870d0a87d2b228d8602a07e4dddb9abaa3faeb474",
+    "bytes": 40
+  },
+  "dataset/cornell/queries/selection_manifest.json": {
+    "sha256": "eab4e719dad37266f13349060744eb19cd37fb681761e70bec7fe7688674aaea",
+    "bytes": 2716
+  },
+  "dataset/cornell/true_communities.txt": {
+    "sha256": "f0b47d7526ad765013ace09e40f65c44001bc30e8b8616d2c11abe118a88fe26",
+    "bytes": 625
+  },
+  "dataset/dblp/dblp.edges": {
+    "sha256": "c795960e7668c5eb20043f5c7fb353e424cac361e0eb21564a0749fb027e3b19",
+    "bytes": 1171498
+  },
+  "dataset/dblp/queries/dblp-query-1.txt": {
+    "sha256": "845af6258f66cd4425580f014a7aa335f6600eee588f2574a1e670c8725fe9b5",
+    "bytes": 648
+  },
+  "dataset/dblp/queries/dblp-query-2.txt": {
+    "sha256": "a42855b0630eb4c5dde748c6ca9cb255fc80a73ced1f033bb7252f781e593e59",
+    "bytes": 639
+  },
+  "dataset/dblp/queries/dblp-query-3.txt": {
+    "sha256": "b416a578d98e554d4f7f5c815e088104687445687c30c05a8ba8d874e16b531b",
+    "bytes": 646
+  },
+  "dataset/dblp/queries/dblp-query-4.txt": {
+    "sha256": "c50ea5afa0c2d3eaa9fdaebe6744cd02eecd4b859eb48a4a0c2fd070ac0e1c0a",
+    "bytes": 651
+  },
+  "dataset/dblp/queries/dblp-query-5.txt": {
+    "sha256": "207db2a51708f1bc724f00f84faf61d05c0bccd552f252add762bbcbc073b476",
+    "bytes": 641
+  },
+  "dataset/dblp/queries/selection_manifest.json": {
+    "sha256": "1a6e5ea6f70dc37c133e7693d8ba90f5cd203ee1b58bcbf628a2676eb7c1f6e6",
+    "bytes": 1712
+  },
+  "dataset/dblp/true_communities.txt": {
+    "sha256": "cd8466ec62f4e3687c5c22bdf78ff2454407217bfb187f9e490d2904ba5e992b",
+    "bytes": 95190
+  },
+  "dataset/texas/queries/selection_manifest.json": {
+    "sha256": "8af193340e1965add9db7825f7d14db5819432462ba18ad9970270755b8f7b79",
+    "bytes": 3165
+  },
+  "dataset/texas/queries/texas-query-1.txt": {
+    "sha256": "73f4cdb6edf8aede137674c654c8f65074b62c231343046f9ba4a10a60497bc8",
+    "bytes": 39
+  },
+  "dataset/texas/queries/texas-query-2.txt": {
+    "sha256": "3a1c58047b9f5096cd5c40d561a7270d423b9221bba9dfa1540ceef8f0231894",
+    "bytes": 35
+  },
+  "dataset/texas/queries/texas-query-3.txt": {
+    "sha256": "a623c9c2f96c794d0c6706537b34defa0c2c5c80d3e29dcad2270252fb6948ed",
+    "bytes": 41
+  },
+  "dataset/texas/queries/texas-query-4.txt": {
+    "sha256": "1cd647c59c8ddab793dc39b463ddf0327f2274a8a2a830ef2ebe8b78e2e9ab2e",
+    "bytes": 39
+  },
+  "dataset/texas/queries/texas-query-5.txt": {
+    "sha256": "7b8e708148f662f79ae5d02fed1da97f7edcce05123a9c2fc4b1f3d054518528",
+    "bytes": 42
+  },
+  "dataset/texas/texas.edges": {
+    "sha256": "c29e56d6b57dd5805538dac6014bba1e87f4aa6ee5e2ef0d79640868082b6ab4",
+    "bytes": 2355
+  },
+  "dataset/texas/true_communities.txt": {
+    "sha256": "b8b62a843e14b8f5d9db31750ecac86bcc1e4ffb37c7d542a2b3f3a57c54903a",
+    "bytes": 627
+  },
+  "dataset/wisconsin/queries/selection_manifest.json": {
+    "sha256": "613a9cfa22a9ccce6a60e707c1cb59871fe61cdbd29cf05bd68610c7b8cafc7b",
+    "bytes": 2449
+  },
+  "dataset/wisconsin/queries/wisconsin-query-1.txt": {
+    "sha256": "884c190ceea3ff8335eeece4602346a24a4edf78dacb513549dde9cc0458676b",
+    "bytes": 55
+  },
+  "dataset/wisconsin/queries/wisconsin-query-2.txt": {
+    "sha256": "8a5ef3dd3416bbff192e68afcafc23aed4378727c81af342275006ab2d1b09e3",
+    "bytes": 51
+  },
+  "dataset/wisconsin/queries/wisconsin-query-3.txt": {
+    "sha256": "56ab30bfd286385a4d41859cc46046fdadf98a31088cb5f791ec116fe5b558cf",
+    "bytes": 53
+  },
+  "dataset/wisconsin/queries/wisconsin-query-4.txt": {
+    "sha256": "1d4faaee7c5874c67fc1e786bbb96e46b8c67730fe69aeec8802b8c6eaa6e921",
+    "bytes": 54
+  },
+  "dataset/wisconsin/queries/wisconsin-query-5.txt": {
+    "sha256": "815621040af70e31af35d6d1188696a0c22df78fbba8341c28312c33afda6491",
+    "bytes": 56
+  },
+  "dataset/wisconsin/true_communities.txt": {
+    "sha256": "ad2c75802aa8570b8f42b8a6a6781fe5244065a98f28e436a2476ec11c64d575",
+    "bytes": 897
+  },
+  "dataset/wisconsin/wisconsin.edges": {
+    "sha256": "69a0d8283d6b133302553d6b392d13f5c09ad988b3eb1bc14eab4f4e20ff50ee",
+    "bytes": 3971
+  },
+  "graphtree_dblp_meanemb.py": {
+    "sha256": "5440a0a7be50b74cc6c3803f1f02a85d50d1538027861716d9060c44a06857a6",
+    "bytes": 20096
+  },
+  "index_tree_schema.py": {
+    "sha256": "d3aa3371377a85729c51b2200398d7cb6c1e350ead5c5818abe330501128986d",
+    "bytes": 7669
+  },
+  "indexes/citeseer/embedding_cluster_seed0tree.pkl": {
+    "sha256": "8f5cdfa74f4c2a144ac3dad5b29eb94856ca21071080c96b57f9b0b51c690c39",
+    "bytes": 2747217
+  },
+  "indexes/citeseer/embedding_cluster_seed1tree.pkl": {
+    "sha256": "38e9a2ffb25295673a78f970d75d7f4aa2073e740151c17767184d5cad720b34",
+    "bytes": 2826393
+  },
+  "indexes/citeseer/embedding_cluster_seed2tree.pkl": {
+    "sha256": "ef02054874830a151e31e76330844c60e86779288e8b820b33f8687a0453a1f3",
+    "bytes": 2964572
+  },
+  "indexes/citeseer/embedding_cluster_seed3tree.pkl": {
+    "sha256": "30275e6a11d95eb2a2dbafd1730084a276f47af026126d0f1d7ca2e3c15a40d0",
+    "bytes": 2818747
+  },
+  "indexes/citeseer/embedding_cluster_seed4tree.pkl": {
+    "sha256": "3a9b472921ab4f25a8ec80e497c325fb6d02ca1d82a664de245d699bc5b2c864",
+    "bytes": 2985636
+  },
+  "indexes/citeseer/embedding_cluster_seed5tree.pkl": {
+    "sha256": "471d9cd1a997684db073d5b0aed08247d7f295bd27ecdbb06970c87a20cb978a",
+    "bytes": 2801169
+  },
+  "indexes/citeseer/embedding_cluster_seed6tree.pkl": {
+    "sha256": "a80fd487e80629f1e4f45dc9f4ece09674b8956c8ac2289583431ef18b1270ae",
+    "bytes": 2843536
+  },
+  "indexes/citeseer/embedding_cluster_seed7tree.pkl": {
+    "sha256": "93459f84a3896a026911393a8c72439b2ca6d53c437440371113f40f49374df6",
+    "bytes": 2822280
+  },
+  "indexes/citeseer/embedding_cluster_seed8tree.pkl": {
+    "sha256": "f8e5a20273a28789b534f6dc2d76b6f9aac7d2ff33769739607542cc05465490",
+    "bytes": 2730027
+  },
+  "indexes/citeseer/embedding_cluster_seed9tree.pkl": {
+    "sha256": "43c60d5673382057788351fdd18e74dd758d39b91f06457b8b4d6fde2fbcfbd9",
+    "bytes": 2817760
+  },
+  "indexes/cornell/fine05__leiden_seed0tree.pkl": {
+    "sha256": "0f0ce04af4acb0a67a634488e07459771d232b95950e2dd221bc365aa6511f39",
+    "bytes": 67761
+  },
+  "indexes/cornell/fine05__leiden_seed1tree.pkl": {
+    "sha256": "43b4886dd923b7dd25796d1521f5a61a0c4c0d1e219f76015ac2c3e2186c5f2b",
+    "bytes": 66628
+  },
+  "indexes/cornell/fine05__leiden_seed3tree.pkl": {
+    "sha256": "881761277f3c790e1ef0585d7a57ac0e4d8bb5557edd587819777e83eb408879",
+    "bytes": 65496
+  },
+  "indexes/cornell/fine05__leiden_seed4tree.pkl": {
+    "sha256": "9019c49b0a966e128603a842f03cf029c63ed2fbcb7cb1a26b43a6e883082f56",
+    "bytes": 66629
+  },
+  "indexes/cornell/fine05__leiden_seed5tree.pkl": {
+    "sha256": "3ada08f9db9d28427ec30a6f2423ca645e5d616c48f57d6ad3b4f175400fb8f4",
+    "bytes": 65497
+  },
+  "indexes/cornell/fine1__leiden_seed0tree.pkl": {
+    "sha256": "1521bb1b227416397691e8242d77b0aabeb2cd6e9b69e02c6d011d5d07802c30",
+    "bytes": 89599
+  },
+  "indexes/cornell/fine1__leiden_seed1tree.pkl": {
+    "sha256": "848abb12e93abd1af6e3745c87b4853998321bbd6077cbce095cf8242b0c0d3e",
+    "bytes": 88496
+  },
+  "indexes/cornell/fine1__leiden_seed3tree.pkl": {
+    "sha256": "ac45902248932e951563316045d94d34df3d16aebfa906367d8b1bdb8b858f7a",
+    "bytes": 88496
+  },
+  "indexes/cornell/fine1__leiden_seed4tree.pkl": {
+    "sha256": "82cee8e13091df8e5fbcd74ec949a1fc779e041efacafcd1a68f84df131fe730",
+    "bytes": 88496
+  },
+  "indexes/cornell/fine1__leiden_seed5tree.pkl": {
+    "sha256": "783440b99578093b568a3adcf0b5467eb90ae2372743e6d34f0626d5767af0c0",
+    "bytes": 88496
+  },
+  "indexes/cornell/fine1__leiden_seed6tree.pkl": {
+    "sha256": "d95f38ab5308941ce7c68813916a83ab3a0fb4ef1eafec49b8a312b60b179823",
+    "bytes": 89599
+  },
+  "indexes/cornell/fine2__leiden_seed1tree.pkl": {
+    "sha256": "af5d06206e26a9da6923a3d0035bd3740dd399706982e69916380d9a4ee29f0c",
+    "bytes": 56151
+  },
+  "indexes/cornell/fine2__leiden_seed2tree.pkl": {
+    "sha256": "9c4e568523f4e654881ab05acc02f5e1ff75c5749739ce32eff98358858e9ed6",
+    "bytes": 56152
+  },
+  "indexes/cornell/fine2__leiden_seed3tree.pkl": {
+    "sha256": "5c78050405a5bc220e2c94f8ab86c25180ee66ba9ad62d15b60a7d5af94ef0b0",
+    "bytes": 51698
+  },
+  "indexes/cornell/old__leiden_seed0tree.pkl": {
+    "sha256": "4bdc49bd852bfa2fcb18565fad5ec581c5070106b9dc5e34d7013bf51428b11d",
+    "bytes": 37500
+  },
+  "indexes/dblp/leiden_seed0tree.pkl": {
+    "sha256": "a17569b3c7e042981207a0660cc5db596fea93480b436edb81eafd2166719be5",
+    "bytes": 13618766
+  },
+  "indexes/dblp/leiden_seed1tree.pkl": {
+    "sha256": "72293288ebb687fa909de4a369bc701996531d24a4470d6db7ec0ae0ad695978",
+    "bytes": 13504423
+  },
+  "indexes/dblp/leiden_seed2tree.pkl": {
+    "sha256": "1c86ca959499fc73e0caa6dd1d37c9e6bb6f762e94e77a7bfcdd1380c6b566c6",
+    "bytes": 13559614
+  },
+  "indexes/dblp/leiden_seed3tree.pkl": {
+    "sha256": "5ab3a53ae82cba3c7928df2b1ad2082b0b4b9670a36b943a42c3870598f5aa60",
+    "bytes": 13600122
+  },
+  "indexes/dblp/leiden_seed4tree.pkl": {
+    "sha256": "11fd237efeed24f75648f1085a501c283e88828f48fd6e3f971edf71319cd780",
+    "bytes": 13429250
+  },
+  "indexes/dblp/leiden_seed5tree.pkl": {
+    "sha256": "d0a821234a2c8949d5385eeefadbf4976c1e88d2ab88b71067ad25032ef0627e",
+    "bytes": 13979070
+  },
+  "indexes/dblp/leiden_seed6tree.pkl": {
+    "sha256": "add1ddaeb1a0bba4590897856b3e907b4cac4748c604a4b98684a215c754a300",
+    "bytes": 13622580
+  },
+  "indexes/dblp/leiden_seed7tree.pkl": {
+    "sha256": "feeeab1c3aa81a17d1cbc749dd5870131883801a75b0b87c446bd92ad7b398f1",
+    "bytes": 13506155
+  },
+  "indexes/dblp/leiden_seed8tree.pkl": {
+    "sha256": "12b90217e3b9866bc5a45812aef61e6afd45ec97c8613e9adb77f2296f6b182e",
+    "bytes": 13655203
+  },
+  "indexes/dblp/leiden_seed9tree.pkl": {
+    "sha256": "0b0b9749e933a031f36f7369007c47e9020002c5ee29bfeec26eb7ebde6e9c2d",
+    "bytes": 13666085
+  },
+  "indexes/texas/fine05__louvain_seed0tree.pkl": {
+    "sha256": "a92b63b6c23376f0030b31944f2a6963296b429e39c5a11f7e2bf9cf8eb71f4b",
+    "bytes": 76686
+  },
+  "indexes/texas/fine05__louvain_seed1tree.pkl": {
+    "sha256": "ccfd91e31bf864328df61441951b859cdfde5d9cae4a054871a4fc1ec5b02fb1",
+    "bytes": 77825
+  },
+  "indexes/texas/fine05__louvain_seed2tree.pkl": {
+    "sha256": "23118cb28c1d15c1fdc82fcf80ce3610e428b37432c77fb8208922326160504c",
+    "bytes": 75574
+  },
+  "indexes/texas/fine05__louvain_seed3tree.pkl": {
+    "sha256": "2c17acaa6f9eb1ae461aae25d2b98ef9186794cad8663e171ad3a805a1ba07f1",
+    "bytes": 77819
+  },
+  "indexes/texas/fine05__louvain_seed4tree.pkl": {
+    "sha256": "4211276958b2ea2e47101a681f1a6aa3c16e2d82bfe255ed0818d5cecace4bb8",
+    "bytes": 76689
+  },
+  "indexes/texas/fine05__louvain_seed5tree.pkl": {
+    "sha256": "4c91ed965e6b2c238237f3d1dff0f4479b9de3fb59e079bb8443c8fd4ccf0b6f",
+    "bytes": 76711
+  },
+  "indexes/texas/fine05__louvain_seed6tree.pkl": {
+    "sha256": "d4d3bd08cda55c6d6101ebf2607f9d4ce72390bb8f2b588707136009a4ad3cb1",
+    "bytes": 77823
+  },
+  "indexes/texas/fine05__louvain_seed7tree.pkl": {
+    "sha256": "e7e98b1cc1239afb5e2cc29bdaac1740ac7d6590ac44116115a8c98f1ceffec1",
+    "bytes": 75607
+  },
+  "indexes/texas/fine05__louvain_seed8tree.pkl": {
+    "sha256": "5008111ef61f2abd864b3d28d3d2acaabc6d3a0e3ec16ca69386030c1812f736",
+    "bytes": 77826
+  },
+  "indexes/texas/fine1__louvain_seed0tree.pkl": {
+    "sha256": "3f1d5dbf532bafe4e636cea6aebe8e5d83589ae8dc2420eae3624cd12686de9a",
+    "bytes": 87362
+  },
+  "indexes/texas/fine1__louvain_seed1tree.pkl": {
+    "sha256": "ccef81b9a402b80e45e078f71d837cf732b31115c8d84dcbbae2ce926f057b03",
+    "bytes": 91807
+  },
+  "indexes/texas/fine1__louvain_seed4tree.pkl": {
+    "sha256": "ea38697fe192db2aebd2f6018013931ebaa3670bdb854b63d4d2b0bda52e7a45",
+    "bytes": 85170
+  },
+  "indexes/texas/fine1__louvain_seed5tree.pkl": {
+    "sha256": "ce156b5e6df4903e2123c88299fde82b44bc12a76e482cc49767908afe4fb141",
+    "bytes": 86248
+  },
+  "indexes/texas/fine1__louvain_seed6tree.pkl": {
+    "sha256": "c9961849db13f79a7f827257c1c1d511310da9d4dc4ee6af5d03cf6ff7374a75",
+    "bytes": 87400
+  },
+  "indexes/texas/fine1__louvain_seed7tree.pkl": {
+    "sha256": "01a821f76eb6e9c9a6b848488d1f04fcd9639a72e9e3036ae3c8389b81dab806",
+    "bytes": 85171
+  },
+  "indexes/texas/fine1__louvain_seed8tree.pkl": {
+    "sha256": "7cc35c7015d47e882e0475be24bed7c6529f4b2a13d38f82ff9c8ecd04fe118e",
+    "bytes": 87379
+  },
+  "indexes/texas/fine2__louvain_seed0tree.pkl": {
+    "sha256": "3c31e463a250a449c2c4fc1b3ee570d3c9e479658e1b7571d354b017522d81a7",
+    "bytes": 68357
+  },
+  "indexes/texas/fine2__louvain_seed1tree.pkl": {
+    "sha256": "c750e7ba3cb94d03ec7401adbe017c4436ad4c7dcdd91b1845b48bb8ecb909d7",
+    "bytes": 66137
+  },
+  "indexes/texas/fine2__louvain_seed2tree.pkl": {
+    "sha256": "8cbeec8c0f9280b102959bb1175d37667dd490c4ad815a90af29236db5f5bd27",
+    "bytes": 69463
+  },
+  "indexes/texas/fine2__louvain_seed3tree.pkl": {
+    "sha256": "e8ea70813e9b1cca76427a0297d19f4c3993c5a1aaec253d2a431fbda1ee6a87",
+    "bytes": 69463
+  },
+  "indexes/texas/fine2__louvain_seed4tree.pkl": {
+    "sha256": "1f35538d23223e84e5ec1bc19d7fda2a70f0b1cabf5da6a4391243c5cbcd9a3e",
+    "bytes": 72794
+  },
+  "indexes/texas/fine2__louvain_seed5tree.pkl": {
+    "sha256": "45df0e0e8bb4d233ed24b0280bf6493626e163bf1cc96e1e19ee6e9f227d5b81",
+    "bytes": 69463
+  },
+  "indexes/texas/fine2__louvain_seed7tree.pkl": {
+    "sha256": "621e30f2a55c6db5da68c57932c47c0126ca5fcb209dab9d21edd72b16b90281",
+    "bytes": 73914
+  },
+  "indexes/texas/old__louvain_seed0tree.pkl": {
+    "sha256": "6c650ffd8a177bf78bc31506e55ed6d73a0d6252becc5e38d7eb49f06bbba1d6",
+    "bytes": 37473
+  },
+  "indexes/texas/old__louvain_seed1tree.pkl": {
+    "sha256": "9f71d85c9e3e8d8d435f98b63e1e878de8095a54be91dae3bf0212cee81d5bd4",
+    "bytes": 37466
+  },
+  "indexes/texas/old__louvain_seed4tree.pkl": {
+    "sha256": "e7aa8971a449ce5107b1039db250e8a2a732076e469d63d913ff2df8882d01f3",
+    "bytes": 40817
+  },
+  "indexes/texas/old__louvain_seed5tree.pkl": {
+    "sha256": "f81614d08b5cab01758ca28724d577a426ba815e51c1289b6c32e563f7f997cb",
+    "bytes": 37465
+  },
+  "indexes/texas/old__louvain_seed6tree.pkl": {
+    "sha256": "902f83c26895a92e737d3650b7bf42eac4d6e3188a7597059944c101149943fb",
+    "bytes": 40818
+  },
+  "indexes/texas/old__louvain_seed7tree.pkl": {
+    "sha256": "6a04bae332d9f1c0305e013b32df0254c37b980e669e50fb3933d1a4cc0b0598",
+    "bytes": 41924
+  },
+  "indexes/texas/old__louvain_seed8tree.pkl": {
+    "sha256": "4d825708db4d10fce67f1f854a0a4a0e4cec040eb4c443d803e45801833b6d25",
+    "bytes": 36367
+  },
+  "indexes/wisconsin/fine05__leiden_seed0tree.pkl": {
+    "sha256": "d1c3b04201d10ae4a4a9444ff8d6f1f9980b9d654dcdc32ac844a31fabf9eb20",
+    "bytes": 103015
+  },
+  "indexes/wisconsin/fine05__louvain_seed0tree.pkl": {
+    "sha256": "99418cd5a1a417c9985f6e677a292e2d3d054206e94e2985e34c7f6c2651a9d2",
+    "bytes": 102876
+  },
+  "indexes/wisconsin/fine1__leiden_seed0tree.pkl": {
+    "sha256": "6a436f068ccf95af775a7408f9dd0ce8c5e48ef81431e320a0be1043d25f41e8",
+    "bytes": 135593
+  },
+  "indexes/wisconsin/fine1__louvain_seed0tree.pkl": {
+    "sha256": "fc4c2dd122670a9ef1747864bbcb30f18fc1f1450ec50c12ddb10a353f9ca82d",
+    "bytes": 134559
+  },
+  "indexes/wisconsin/fine2__leiden_seed0tree.pkl": {
+    "sha256": "9c4c306e0e4781c6882f68c5185c87634de55dc83ed620a65184124ee6096015",
+    "bytes": 98727
+  },
+  "LICENSE_PENDING.md": {
+    "sha256": "ba8fc755a77b3de77a1c09dcc5e679c36f410a61f70956b41d956bacf786a132",
+    "bytes": 406
+  },
+  "paper_results/citeseer/split_results.csv": {
+    "sha256": "366b173d3c6aa2f59bf8510bfed2f7ec481bec7720cdc4e480f154076c0c1eb1",
+    "bytes": 79000
+  },
+  "paper_results/citeseer/summary.csv": {
+    "sha256": "452a4f818e83012c7ee7efdc2cfa82e5728866a095ab99b1643cd6809a7dd79b",
+    "bytes": 26370
+  },
+  "paper_results/cornell/split_results.csv": {
+    "sha256": "a357dcaa85e3eb98eb618a4338e4fd5b37c40f5ca095deca6629ac3bd72110db",
+    "bytes": 74900
+  },
+  "paper_results/cornell/summary.csv": {
+    "sha256": "a630d88e360b5e1c1e53781620bc81d71453f1fd7d9d635cde2d0a6945984d77",
+    "bytes": 29404
+  },
+  "paper_results/dblp/split_results.csv": {
+    "sha256": "1700b74a0b571b6394942a0940f3135883e1fa485689dc13e8eedacad63d1490",
+    "bytes": 75099
+  },
+  "paper_results/dblp/summary.csv": {
+    "sha256": "352f06184cb99b9ea128c58dcc528a210180e0f57e45407c5b3be6464dbec19f",
+    "bytes": 25833
+  },
+  "paper_results/evidence_providers.csv": {
+    "sha256": "db2ff35f35e2aa90d9c2c0d83da0509fc09226919bd2b33192fa4da6cbf83841",
+    "bytes": 6005
+  },
+  "paper_results/evidence_replacement.csv": {
+    "sha256": "580f37fe2f64f8a393619bc9c4ac19eb73afb299d0e4517a4c878809802bbfcf",
+    "bytes": 7493
+  },
+  "paper_results/index_structure.csv": {
+    "sha256": "ef113d51d190905c6483bafb11c7872e3014cb9f69cce24d394225f01dcfd2f7",
+    "bytes": 895
+  },
+  "paper_results/robustness_groups.csv": {
+    "sha256": "d1a05eda89b4372a0dbfcf754379e65238610134e2a9e94567d9b711995f4c4f",
+    "bytes": 8462
+  },
+  "paper_results/robustness_paired_gains.csv": {
+    "sha256": "ced1cd880747b4d0902e4f7bc96ca86a9b50905a4b1634c969700838474bdd3e",
+    "bytes": 3429
+  },
+  "paper_results/sensitivity.csv": {
+    "sha256": "6b2a86c7cc0945b7a970abb5ec52b62e81cc4a8bd9519cba00e3acfe20c90686",
+    "bytes": 52096
+  },
+  "paper_results/shared_leaf_storage.csv": {
+    "sha256": "0631acfb01bcc52271f7b0f8e37fb083377bc175967ba96fc7bc4767edbb17f4",
+    "bytes": 695
+  },
+  "paper_results/texas/split_results.csv": {
+    "sha256": "e98ec7f1545cd7d7043487a50ad8f87d7a9e066b39860ced3e6e1e8c2721e7f4",
+    "bytes": 73709
+  },
+  "paper_results/texas/summary.csv": {
+    "sha256": "ec98571cb58bc8d3585d1607590c62329c6fad15c7b9f2c8c6ca684f793baa85",
+    "bytes": 29060
+  },
+  "paper_results/tree_source_count.csv": {
+    "sha256": "234eb5ab5363fb8b97fb5597218fecab521127cb1d32726791faa1f93f2dfda0",
+    "bytes": 39248
+  },
+  "paper_results/wisconsin/split_results.csv": {
+    "sha256": "c8d3304ab38620ab2ae18d1f4a84b4fce85ed6790b83240db1dff30c54caa206",
+    "bytes": 79348
+  },
+  "paper_results/wisconsin/summary.csv": {
+    "sha256": "4c68f2a8083468f861648061dbb538cb2dc5a20ffa0f17292705996c3bbb7f98",
+    "bytes": 27543
+  },
+  "pretrain_result/citeseer.npy": {
+    "sha256": "f43b8fd49884249dc1c4ce45dc20834f656f90b4f3a28fab24d4ff2dbab7549e",
+    "bytes": 13627520
+  },
+  "pretrain_result/cornell.npy": {
+    "sha256": "26dd9654063fa3348f004b310c47459a8ebcfb0b4ba8ca4f7c9fd21226147cdf",
+    "bytes": 187520
+  },
+  "pretrain_result/dblp.npy": {
+    "sha256": "b68b7df8f1c4151067801007c3f7c2183b66e51c25e1a3f1d85a21dfded3063e",
+    "bytes": 72564864
+  },
+  "pretrain_result/texas.npy": {
+    "sha256": "6a730c9952f02b50b82088aa5415ea83e8e08cf1024686f666ff7a745a1dba19",
+    "bytes": 187520
+  },
+  "pretrain_result/wisconsin.npy": {
+    "sha256": "c98d75a9fb6f61c178fce129515bbe35a717bf9a9ee53c6f0df2cb1a393fc220",
+    "bytes": 257152
+  },
+  "README.md": {
+    "sha256": "535baa601daed7a647afd5227c0e0cb70e777af99a147756a9775b92b71ca1e7",
+    "bytes": 2123
+  },
+  "reference/citeseer/full.npz": {
+    "sha256": "6b7338ff5c45cc9082947eea9971ce4bd2b8d301c270520b042676b6971fa0cc",
+    "bytes": 94840
+  },
+  "reference/cornell/full.npz": {
+    "sha256": "9dbfb3e24f88157c22776e62e37c2b848157b0055d9974fecfdbb4177709dfba",
+    "bytes": 3245
+  },
+  "reference/dblp/full.npz": {
+    "sha256": "7b26b88dfa8e50f271d2fd13ab2d48180817620a9e8b5dc086d6b8dc33e36ad6",
+    "bytes": 324910
+  },
+  "reference/texas/full.npz": {
+    "sha256": "2978fa35da466620be323d1d8595d84b76e18fb3c4bf644d31458464ce804dd4",
+    "bytes": 3474
+  },
+  "reference/wisconsin/full.npz": {
+    "sha256": "f086241746bc447063692c2efaef2cb964f5e5c3c513ac01e25d1753fee4f08d",
+    "bytes": 4478
+  },
+  "requirements.txt": {
+    "sha256": "47f7b8fdfebb168269526f5c9f8ee6026e697cd0618a573416a4cf3aae11f89e",
+    "bytes": 164
+  },
+  "rewriteandsearch_csqr_internal_ablation.py": {
+    "sha256": "9303269b1ca9c74eddbab69ca8f68f42a908e2fb8069934b8ea9eb2840a75a6d",
+    "bytes": 49007
+  },
+  "run.py": {
+    "sha256": "0096f534d5fab8d0a9e9c42710b1c024d4c64e459a1f134d16905bf410628beb",
+    "bytes": 5273
+  },
+  "run_context_selection_v2_ablation.py": {
+    "sha256": "971f27333695fcec0ff5604ca0bf0e83048743c4654e134199abf5f2a12175cd",
+    "bytes": 17872
+  },
+  "run_csqr_internal_ablation.py": {
+    "sha256": "46e8987804d7d974c610a8a8ab443d286fa75e498957e5b3ee4ce6ebc9cad5f0",
+    "bytes": 16032
+  },
+  "run_index_source_ablation.py": {
+    "sha256": "28e9549a5fb4794a8e4b305c3b026a6f9cfc1e05f9c0bbd56bbbf6933262bc72",
+    "bytes": 10207
+  },
+  "shared_leaf_vectors.py": {
+    "sha256": "53d8114659a40762a0081529a902a208b5bdb715a2c758d5962b5e0358bc2d8a",
+    "bytes": 4867
+  },
+  "test_index_tree_schema.py": {
+    "sha256": "bb6291c3f57a7d6ccc6a77b7fff793b155a8a95e8ef01f63682fd9c321f41081",
+    "bytes": 2153
+  },
+  "test_shared_leaf_vectors.py": {
+    "sha256": "34ef4b08f78e8acfd71d3b3922dc1abc136a078a70f1c1780383cdd8a54e6caf",
+    "bytes": 2812
+  },
+  "utils.py": {
+    "sha256": "624379d738cafd00112532d8885bc53daf27466f42dc88f475898caf3b34b98c",
+    "bytes": 20679
+  }
+}
